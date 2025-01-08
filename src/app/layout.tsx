@@ -10,49 +10,49 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "MEIpro | Abertura Inteligente de MEI e CNPJ",
-  description: "Simplifique a abertura do seu MEI e CNPJ com a MEIpro. Processos ágeis, automatizados e seguros para transformar sua ideia em realidade.",
+  title: "StepMEI | Abertura Inteligente de MEI e CNPJ",
+  description: "Simplifique a abertura do seu MEI e CNPJ com a StepMEI. Processos ágeis, gamificados e seguros para transformar sua ideia em realidade.",
   icons: {
     icon: "/Logo.png",
   },
   openGraph: {
-    title: "MEIpro | Abertura Inteligente de MEI e CNPJ",
-    description: "Você é uma empresa de contabilidade online? Automatize a abertura de MEI e CNPJ com a MEIpro. Transforme processos burocráticos em algo simples e rápido, para sua equipe e clientes",
+    title: "StepMEI | Abertura Inteligente de MEI e CNPJ",
+    description: "Você é uma empresa de contabilidade online? Automatize e gamifique a abertura de MEI e CNPJ com a StepMEI. Transforme processos burocráticos em uma jornada envolvente.",
     images: [
       {
         url: "/Logo.png",
-        alt: "Logo da MEIpro",
+        alt: "Logo da StepMEI",
       },
     ],
     type: "website",
     locale: "pt_BR",
-    url: "https://meipro.com.br",
+    url: "https://stepmei.com.br",
   },
   twitter: {
     card: "summary_large_image",
-    title: "MEIpro | Abertura Inteligente de MEI e CNPJ",
-    description: "MEIpro: simplifique a abertura de empresas com tecnologia e automação.",
-    site: "@meipro",
+    title: "StepMEI | Abertura Inteligente de MEI e CNPJ",
+    description: "StepMEI: transforme a abertura de empresas em uma jornada gamificada.",
+    site: "@stepmei",
     images: "/Logo.png",
   },
   robots: "index, follow", // Alterado para permitir indexação, se desejado.
   keywords: [
-    "MEIpro",
+    "StepMEI",
     "Abertura MEI",
-    "Automação de processos",
+    "Gamificação",
     "Contabilidade online",
     "Abertura CNPJ",
     "Tecnologia contábil",
     "Gestão de negócios",
     "Empreendedorismo",
     "MEI fácil",
-    "MEI rápido",
+    "MEI gamificado",
   ],
   authors: [
-    { name: "MEIpro", url: "https://meipro.com.br" },
+    { name: "StepMEI", url: "https://stepmei.com.br" },
   ],
-  creator: "MEIpro",
-  publisher: "MEIpro",
+  creator: "StepMEI",
+  publisher: "StepMEI",
   category: "Tecnologia e Negócios",
 };
 
