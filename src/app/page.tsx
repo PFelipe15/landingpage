@@ -260,7 +260,7 @@ export default function LandingPage() {
                     
                     <div className="flex flex-col gap-4">
                       <p className="text-xl text-gray-600 leading-relaxed max-w-xl">
-                        O MEIPro automatiza todo o processo de abertura, permitindo que seu escritório:
+                        O STEP.MEI automatiza todo o processo de abertura, permitindo que seu escritório:
                       </p>
                       
                       <ul className="space-y-3">
@@ -287,7 +287,7 @@ export default function LandingPage() {
 
                     <div className="pt-4">
                       <p className="text-lg text-emerald-700 font-medium mb-6">
-                        Mais de 500 escritórios já transformaram seus processos com o MEIPro
+                        Mais de 500 escritórios já transformaram seus processos com o STEP.MEI
                       </p>
                     </div>
                   </div>
@@ -413,7 +413,7 @@ export default function LandingPage() {
                 Transforme a Burocracia em Diversão
               </h2>
               <p className="text-xl text-emerald-600 max-w-3xl mx-auto">
-                Enquanto outras plataformas mantêm o processo tradicional, o MEIPro revoluciona 
+                Enquanto outras plataformas mantêm o processo tradicional, o STEP.MEI revoluciona 
                 a experiência do seu cliente através da gamificação, tornando cada etapa da 
                 abertura do MEI em uma jornada envolvente e recompensadora
               </p>
@@ -541,7 +541,7 @@ export default function LandingPage() {
               className="text-center mb-16"
             >
               <h2 className="text-4xl font-bold text-emerald-900 mb-4">
-                Como o MEIPro Funciona
+                Como o STEP.MEI Funciona
               </h2>
               <p className="text-xl text-emerald-600 max-w-2xl mx-auto">
                 Uma plataforma completa que simplifica todo o processo de abertura do MEI
@@ -725,7 +725,7 @@ export default function LandingPage() {
                             Já tenho um site
                           </h3>
                           <p className="text-emerald-600 text-lg mb-8">
-                            Integre o MEIPro ao seu site existente
+                            Integre o STEP.MEI ao seu site existente
                           </p>
                         </div>
                         <ul className="space-y-4 mb-8">
@@ -862,7 +862,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h4 className="text-lg font-bold mb-4">MEIPro</h4>
+              <h4 className="text-lg font-bold mb-4">STEP.MEI</h4>
               <p className="text-emerald-200">
                 Revolucionando a abertura de MEI com gamificação e tecnologia.
               </p>
@@ -933,7 +933,7 @@ export default function LandingPage() {
           <div className="border-t border-emerald-800 mt-8 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-emerald-200 text-sm">
-                &copy; 2024 MEIPro. Todos os direitos reservados.
+                &copy; 2024 STEP.MEI. Todos os direitos reservados.
               </div>
               <div className="flex gap-4">
                 <a href="#" className="text-emerald-200 hover:text-white transition-colors">

@@ -6,7 +6,7 @@ interface LogoProps {
   variant?: 'default' | 'white'
 }
 
-const Logo: React.FC<LogoProps> = ({ width = 120, height = 40, variant = 'default' }) => {
+const Logo: React.FC<LogoProps> = ({ width = 130, height = 40, variant = 'default' }) => {
   const textColor = variant === 'white' ? '#FFFFFF' : '#064E3B'
   const accentColor = '#059669'
    
@@ -14,7 +14,7 @@ const Logo: React.FC<LogoProps> = ({ width = 120, height = 40, variant = 'defaul
     <svg
       width={width}
       height={height}
-      viewBox="0 0 120 40"
+      viewBox="0 0 150 30"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMidYMid meet"
@@ -80,15 +80,16 @@ const Logo: React.FC<LogoProps> = ({ width = 120, height = 40, variant = 'defaul
           fill={textColor}
           letterSpacing="-0.5"
         >
-          MEI
-          <tspan fill={accentColor} letterSpacing="-0.5">Pro</tspan>
+          STEP.
+
+          <tspan fill={accentColor} letterSpacing="-0.5">MEI</tspan>
         </text>
         
         <text
           x="32"
-          y="32"
+          y="35"
           fontFamily="Arial, sans-serif"
-          fontSize="9"
+          fontSize="10"
           fill={textColor}
           opacity="0.7"
           letterSpacing="0.5"
