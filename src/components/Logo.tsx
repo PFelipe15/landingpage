@@ -9,8 +9,7 @@ interface LogoProps {
 const Logo: React.FC<LogoProps> = ({ width = 120, height = 40, variant = 'default' }) => {
   const textColor = variant === 'white' ? '#FFFFFF' : '#064E3B'
   const accentColor = '#059669'
-  const secondaryColor = variant === 'white' ? '#FFFFFF' : '#064E3B'
-  
+   
   return (
     <svg
       width={width}

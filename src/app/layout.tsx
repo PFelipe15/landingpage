@@ -14,6 +14,9 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "MEIpro",
   description: "Abertura Inteligente",
+  icons: {
+    icon: '/Logo.png',
+  },
 };
 
 export default function RootLayout({

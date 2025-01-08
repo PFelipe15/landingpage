@@ -1,10 +1,10 @@
 'use client'
 
-import { useState } from 'react'
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Checkbox } from "@/components/ui/checkbox"
-import { Building2, Phone, Users, HardHat, Mail } from 'lucide-react'
+import { Input } from "@/components/ui/input"
+import { Building2, Mail, Phone, Users } from 'lucide-react'
+import { useState } from 'react'
 import { toast } from 'sonner'
 
 interface FormData {
@@ -45,6 +45,7 @@ export function RequestAccessForm({ onClose }: { onClose: () => void }) {
       }, 1000)
       
     } catch (error) {
+      console.error('Erro ao enviar solicitação', error)
       toast.error('Erro ao enviar solicitação', {
         description: 'Por favor, tente novamente mais tarde.',
       })
