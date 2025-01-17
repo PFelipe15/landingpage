@@ -3,7 +3,6 @@ import { Geist } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Toaster } from "sonner";
-import { ThemeProvider } from "@/components/theme-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -88,15 +87,9 @@ export default function RootLayout({
         <meta name="description" content="Transforme a abertura de empresas em uma jornada gamificada com a StepMEI." />
       </head>
       <body className={cn("h-screen", geistSans.variable)}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
+       
           {children}
           <Toaster position="top-right" expand={true} richColors closeButton />
-        </ThemeProvider>
       </body>
     </html>
   );
