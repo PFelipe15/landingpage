@@ -62,38 +62,7 @@ const FEATURES = [
   }
 ]
 
-const BENEFITS = [
-  {
-    title: "Experiência Gamificada Única",
-    description: "Transformamos a burocracia em uma jornada divertida e envolvente para seus clientes",
-    icon: "🎮",
-    features: [
-      "Sistema de conquistas e recompensas",
-      "Progresso visual interativo",
-      "Missões que simplificam cada etapa"
-    ]
-  },
-  {
-    title: "Engajamento do Cliente",
-    description: "Seus clientes se mantêm motivados e participativos durante todo o processo",
-    icon: "🏆",
-    features: [
-      "Feedback instantâneo das ações",
-      "Celebração de cada etapa concluída",
-      "Interface intuitiva e amigável"
-    ]
-  },
-  {
-    title: "Processo Simplificado",
-    description: "A gamificação torna o processo mais leve e compreensível",
-    icon: "🎯",
-    features: [
-      "Linguagem simples e clara",
-      "Tutoriais interativos",
-      "Dicas e orientações contextuais"
-    ]
-  }
-]
+ 
 
 // Adicione esta nova constante para os passos do processo
 const PROCESS_STEPS = [
